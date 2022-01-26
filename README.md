@@ -11,7 +11,8 @@ This slight but effective change was [first suggested](https://www.researchgate.
 
 *Let's try it!*
 
-```> rcompanion::scheirerRayHare(data = iris, Species ~ Sepal.Width * Petal.Length)
+```
+> rcompanion::scheirerRayHare(data = iris, Species ~ Sepal.Width * Petal.Length)
 DV:  Species 
 Observations:  150 
 D:  0.8889284 
