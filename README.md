@@ -1,4 +1,4 @@
-A remix of the Scheirer–Ray–Hare test from rcompanion with car::Anova that uses a type II sum of square approach.
+A remix of the Scheirer–Ray–Hare test from the rcompanion package. Uses car::Anova's type II sum of square approach.
 
 Compared to it's current rcompanion counterpart:
 
