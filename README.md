@@ -7,7 +7,7 @@ Compared to it's current rcompanion counterpart:
 * It will return car::Anova's warning for aliased coefficients
 * It should be less affected by unbalanced designs, although that remains to be thoroughly tested.
 
-The idea was [first suggested](https://www.researchgate.net/post/Can-Scheirer-Ray-Hare-test-be-used-in-unbalanced-data-and-sample-size-5) by rcompanion's author.
+This slight but effective change was [first suggested](https://www.researchgate.net/post/Can-Scheirer-Ray-Hare-test-be-used-in-unbalanced-data-and-sample-size-5) by rcompanion's author.
 
 *Let's try it!*
 
