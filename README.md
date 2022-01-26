@@ -1,9 +1,11 @@
 A remix of the Scheirer–Ray–Hare test from rcompanion with car::Anova that uses a type II sum of square approach.
 
+Compared to it's current rcompanion counterpart:
+
 * It will return the same results when you invert the order of the independent variables
 * It's faster
 * It will return car::Anova's warning for aliased coefficients
-* It should be less affected by unbalanced designs than it's current rcompanion counterpart, although that remains to be thoroughly tested.
+* It should be less affected by unbalanced designs, although that remains to be thoroughly tested.
 
 
 *Let's try it!*
