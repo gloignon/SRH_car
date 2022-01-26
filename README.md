@@ -1,11 +1,12 @@
-A remix of the Scheirer–Ray–Hare test from rcompanion with car::Anova.
+A remix of the Scheirer–Ray–Hare test from rcompanion with car::Anova that uses a type II sum of square approach.
 
 * It will return the same results when you invert the order of the independent variables
-* It's less affected by uneven sample sizes than it's current rcompanion counterpart
 * It's faster
 * It will return car::Anova's warning for aliased coefficients
+* It should be less affected by unbalanced designs than it's current rcompanion counterpart, although that remains to be thoroughly tested.
 
-*Let's test it!*
+
+*Let's try it!*
 
 ```> rcompanion::scheirerRayHare(data = iris, Species ~ Sepal.Width * Petal.Length)
 DV:  Species 
