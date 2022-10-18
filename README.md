@@ -1,5 +1,7 @@
 A remix of the Scheirer–Ray–Hare test from the rcompanion package. Uses car::Anova's type II sum of square approach.
 
+Update: rcompanion now implements Type II sum of square.
+
 Compared to it's current rcompanion counterpart:
 
 * It will return the same results when you invert the order of the independent variables
